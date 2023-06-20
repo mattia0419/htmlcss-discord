@@ -1,0 +1,133 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.debug{
+    border: dashed black;
+}
+.flex{
+    display: flex;
+}
+header{
+    background-color: #ADD8E6;
+    height: 450px;
+}
+nav{
+    color: black;
+    justify-content: space-between;
+    display: block;
+}
+.small-nav{
+    width: 25%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #DAA520;
+}
+.big-nav{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: #DAA520;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.last-section-nav{
+    text-align: right;
+}
+.second-header{
+    background-color: #00008B;
+    height: 83%;
+    margin-top: 15px;
+    justify-content: center;
+}
+.block{
+    background-color: #EE82EE;
+    height: 80%;
+    width: 800px;
+    margin: auto;
+}
+.block-b-white{
+    height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-section{
+    height: 90%;
+}
+.blue{
+    width: 60%;
+    background-color: #1E90FF;
+    height: 100%;
+
+}
+.pink{
+    width: 40%;
+    background-color: #FFC0CB;
+    height: 100%;
+}
+.block-b-gray{
+    height: 450px;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-b-gray-big{
+    height: 600px;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color: #228B22;
+}
+.block-b-black{
+    height: 430px;
+    background-color: #23272A;
+    display: flex;
+    padding-top: 5px;
+}
+.pink-2{
+    width: 30%;
+    height: 100%;
+    background-color: #F08080;
+}
+.lightblue{
+    width:calc(70% / 4);
+    height: 100%;
+    background-color: #1E90FF;
+    border: dashed white;
+}
+footer{
+    height: 150px;
+    background-color: #23272A;
+    margin-top: 2px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.foot{
+    background-color: #7FFFD4;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background-color: #FFB6C1;
+    color: black;
+}
+
+
+
