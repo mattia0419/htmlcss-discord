@@ -4,6 +4,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .container{
     width: 1180px;
@@ -11,6 +12,9 @@
 }
 .debug{
     border: dashed black;
+}
+img{
+    max-width: 100%;
 }
 .flex{
     display: flex;
@@ -28,21 +32,28 @@ nav{
     width: 25%;
     padding: 10px;
     margin-top: 15px;
-    background-color: #DAA520;
+    align-items: center;
 }
 .big-nav{
     width: 50%;
     padding: 10px;
-    text-align: center;
     margin-top: 15px;
-    background-color: #DAA520;
+    justify-content: space-around;
+    align-items: center;
 }
 a{
     text-decoration: none;
-    color: black;
+    color:white;
 }
 .last-section-nav{
-    text-align: right;
+    justify-content: flex-end;
+}
+.small-button{
+    font-size: 15px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+    border: transparent;
 }
 .second-header{
     background-color: #00008B;
