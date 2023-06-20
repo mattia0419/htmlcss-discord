@@ -139,7 +139,22 @@ h1{
     align-items: center;
 }
 .green{
-    background-color: #228B22;
+    text-align: center;
+}
+.back-star{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}
+.button-blue{
+    background-color: #8EA1E1;
+    color: white;
+    font-size: 13px;
+    padding: 13px;
+    border-radius: 20px;
+    border: transparent;
+}
+.smaller{
+    height: 55%;
 }
 .block-b-black{
     height: 430px;
@@ -171,10 +186,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-button{
-    background-color: #FFB6C1;
-    color: black;
-}
+
 
 
 
