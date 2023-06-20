@@ -7,7 +7,7 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .container{
-    width: 1180px;
+    width: 1000px;
     margin: 0 auto;
 }
 .debug{
@@ -59,6 +59,10 @@ h1{
 .marg-top{
     margin-top: 20px;
 }
+.marg-top-bot{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .small-button{
     font-size: 15px;
     padding: 8px;
@@ -95,35 +99,37 @@ h1{
     text-align: center;
 }
 .block-b-white{
-    height: 450px;
+    height: 550px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .f-section{
-    height: 90%;
+    height: 80%;
+    margin-top: -55px;
 }
-.blue{
-    width: 60%;
-    background-color: #1E90FF;
-    height: 100%;
+.image{
+    width: 70%;
+    height: 90%;
+    margin-top: 0;
 
 }
-.pink{
-    width: 40%;
-    background-color: #FFC0CB;
-    height: 100%;
+.text{
+    width: 30%;
+}
+.big-font{
+    font-size: 46px;
 }
 .block-b-gray{
-    height: 450px;
+    height: 550px;
     background-color: #D3D3D3;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .block-b-gray-big{
-    height: 600px;
+    height: 700px;
     background-color: #D3D3D3;
     display: flex;
     justify-content: center;
