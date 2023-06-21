@@ -218,6 +218,13 @@ li{
         margin: 0 auto;
         border-bottom: #516193 solid;
     }
+    .wave{
+        color: #D3D3D3;
+        display: block;
+    }
+    .upside-down{
+        transform: rotate(0.5turn);
+    }
 
 
 
